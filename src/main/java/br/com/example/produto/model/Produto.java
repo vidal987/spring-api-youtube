@@ -13,6 +13,7 @@ import java.math.BigDecimal;
 public class Produto {
 
     public Produto (){}
+
     public Produto(String nome, String descricao, BigDecimal preco) {
         this.nome = nome;
         this.descricao = descricao;
@@ -22,10 +23,9 @@ public class Produto {
     @Id
     @GeneratedValue(strategy= GenerationType.SEQUENCE)
     private Long id;
-
     private String nome;
-
     private String descricao;
-
     private BigDecimal preco;
+    private String urlFoto;
+
 }
