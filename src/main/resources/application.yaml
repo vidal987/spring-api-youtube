@@ -11,6 +11,6 @@ spring:
   jpa:
     spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
   aws-s3:
-    accessKey: AKIATZNO6JSWPOZR2G6S
-    secretKey: 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
+    accessKey: acessKey
+    secretKey: secret
     bucket: bucketprodutoyoutubr
